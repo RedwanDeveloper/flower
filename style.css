@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&family=Unna:ital@1&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.Banner{
+
+    background-color: #FCEEF1;
+   padding: 240px 197px;
+   display: flex;
+   height: 430px;
+  
+}
+.Banner-1{
+    width: 50%;
+    text-align: left;
+    padding: 0px;
+   
+}
+.Banner-1>h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 77px;
+    color: #272727;
+    text-shadow: 1px 1px #00000044;
+    line-height: 80px;
+    padding: 0px;
+    stroke: 1px;
+    text-shadow: rgb(55, 55, 55)
+}
+.Banner-1>p{
+    font-family: 'Lato', sans-serif ;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #2727278e;
+    line-height: 30px;
+    margin-top: -20px;
+}
+.Banner-1>button{
+    background-color: #E55473;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border: 0px;
+    border-radius: 8px;
+}
+.Banner-2{
+    width: 50%;
+    text-align: right;
+   
+
+}
+.Banner-2>img{
+    margin-top: -130px;
+    margin-left: 60px;
+    width: 635px;
+    height: 800px;
+}
+.featured{
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   display: block;
+   
+}
+.featured-1{
+   text-align: center;
+}
+.featured-1>h2{
+    color: #272727;
+    font-family:  'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.featured-1>p{
+    font-family: 'Lato', sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2727278e;
+    line-height: 30px;
+    text-align: center;
+}
+.featured-2{
+    display: flex;
+    align-items: center;
+}
+.flower{
+   text-align: center;
+   margin:15px;
+}
+.flr1{
+    background-color: #F2DEE7;
+    height: 428px;
+    width: 404px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px ;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+.flr2{
+    background-color: #D9EFF1;
+    height: 428px;
+    width: 404px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px ;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+.flr2>img{
+    margin-top: 50px;
+}
+.flr3{
+    background-color: #E3EBDB;
+    height: 428px;
+    width: 404px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px ;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+.flr3>img{
+    width: 285px;
+}
+.flower>p{
+    font-family: 'Lato', sans-serif ;
+    font-size: 24px;
+    font-weight: 600;
+    color: #272727;
+    text-align: center;
+    text-decoration: underline;
+}
+.gift{
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   display: block;
+   
+}
+.gift-1{
+   text-align: center;
+}
+.gift-1>h2{
+    color: #272727;
+    font-family:  'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.gift-2{
+    display: flex;
+}
+.love{
+    text-align: center;
+}
+.love>img{
+     width: 300px;
+     height: 300px;
+     padding: 20px;
+     border: 2px solid #E55473;
+     margin: 5px;
+   
+     background-color: #e5547343;
+}
+.love>img:hover{
+    box-shadow: 2px 2px 9px #27272743;
+}
+.love>button{
+    background-color: #E55473;
+    padding: 8px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    border: 0px;
+    border-radius: 8px;
+}
+.sale{
+    display: flex;
+    background-color: #FCEEF1;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    height: 230px;
+}
+.sale>.sale-1{
+    text-align: center;
+    width: 50%;
+}
+.sale-1>p{
+    font-family: 'Lato', sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2727278e;
+    line-height: 30px;
+    text-align: center;
+}
+.sale-1>h2{
+    color: #272727;
+    font-family:  'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.a2{
+    color: #E55473;
+    font-family:  'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+  
+}
+.sale-1>button{
+        background-color: #E55473;
+        padding: 15px 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        border: 0px;
+        border-radius: 8px;
+}
+.sale-2{
+    width: 50%;
+    text-align: center;
+
+}
+.sale-2>img{
+   margin-top: -50px;
+}
+.instagram{
+    text-align: center;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.instagram-1{
+    text-align: center;
+}
+.instagram-1>h2{
+    color: #272727;
+    font-family:  'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.instagram-1>p{
+    font-family: 'Lato', sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2727278e;
+    line-height: 30px;
+    text-align: center;
+}
+.instagram-2{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.ins>img{
+    margin: 10px;
+ 
+}
+.deals{
+    width: 1440px;
+    height: 430px;
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    
+    padding-top: 150px;
+    text-align: center;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 100px;
+}
+.deals-1>h2{
+    color: #272727;
+    font-family:  'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.deals-1>p{
+    font-family: 'Lato', sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2727278e;
+    line-height: 30px;
+    text-align: center;
+}
+input{
+    background-color: white;
+    color: black;
+    border: 0px;
+    font-size: 16px;
+    font-family: 'Lato';
+    line-height: 60px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 360px;
+    margin-right: 10px;
+
+}
+.deals-2>button{
+    background-color: #E55473;
+     padding: 18px 30px;
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     font-family: 'Lato', sans-serif;
+     border: 0px;
+     border-radius: 8px;
+     margin-top: 5px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-1>h2{
+    color: #ffffff;
+    font-family:  'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.footer-1>p{
+    font-family: 'Lato', sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
+.copy>p{
+    font-family: 'Lato', sans-serif ;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff61;
+    line-height: 30px;
+    text-align: center;
+}
